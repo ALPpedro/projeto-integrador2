@@ -1,5 +1,6 @@
 <template>
     <footer>
+      <div class="rodape">
       <div class="organizar">
       <div class="texto">
         <p>CEARÁ CALÇADOS <br>
@@ -21,11 +22,12 @@
             </a>
         </div>
       </div>
-      <div class="social">
+      <div class="contato">
            <p>
             CONTATO <br> Rua 21 de março, Nº542 <br> centro, Santa Ernestina <br> cearacalçados@gmail.com <br> 16 99170-5107 <br> 16 98236-2242 </p>
 
 
+      </div>
       </div>
       </div>
           <h4 class="direitos">© 2020 Direitos reservados: <a> &nbsp; Ceará Calçados</a></h4>
@@ -93,4 +95,40 @@ footer .social{
   color: white;
 }
 
+@media(min-width:400px){
+  .rodape{
+    display: flex;
+    flex-direction: column;
+  }
+.teste{
+  border-top: lightgray solid 3px;
+  border-bottom: lightgray solid 3px;
+  margin-top: 30px;
+  color: white;
+  }
+.texto{
+  border-top: lightgray solid 3px;
+  border-bottom: lightgray solid 3px;
+  margin-top: 30px;
+  color: white;
+}
+.contato{
+  border-top: lightgray solid 3px;
+  border-bottom: lightgray solid 3px;
+  margin-top: 30px;
+  color: white;
+}
+.direitos{
+  border-top: lightgray solid 3px;
+  margin-top: 30px;
+  color: white;
+}
+}
+@media(min-width:760px){
+  .rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 </style>
