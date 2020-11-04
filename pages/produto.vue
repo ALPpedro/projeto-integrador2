@@ -32,17 +32,17 @@ export default {
           descricao: 'Indicado para: Dia a Dia'
         },
         {
-          nome: 'Space',
+          nome: 'ADIDAS NMD',
           img: '~/assets/img/tenis2.jpg',
           descricao: 'Indicado para: Dia a Dia  Categoria: Caminhada, Preço: R$:75,99'
         },
         {
-          nome: 'Space',
+          nome: 'NIKE AIR FORCE 1',
           img: '~/assets/img/tenis2.jpg',
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
-          nome: 'Space',
+          nome: 'ADIDAS SUPERSTAR',
           img: '~/assets/img/tenis2.jpg',
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },

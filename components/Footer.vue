@@ -10,14 +10,16 @@
       </div>
         
       <div class="teste">
-        <h4> &nbsp; REDES SOCIAIS </h4>
+        <h4> &nbsp; REDES SOCIAIS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h4>
       
           <div class="social">
             <a href="https://www.facebook.com/cearacalcadosdedobradasp">
               <img src="~/assets/img/Logo.jpg" alt="facebook" srcset="">
+              Facebook
             </a> 
             <a href="https://www.instagram.com/cearacalcados1/?hl=pt-br">
               <img src="~/assets/img/Logo.jpg" alt="instagram" srcset="">
+              Instagram
             </a>
         </div>
       </div>
@@ -28,7 +30,11 @@
 
       </div>
       </div>
-          <h4 class="direitos">© 2020 Direitos reservados: <a> &nbsp; Ceará Calçados</a></h4>
+          <h4 class="direitos">© 2020 Direitos reservados: <a><nuxt-link 
+           to="/"
+           exact-active-class="is-active">
+              &nbsp; Ceará Calçados
+            </nuxt-link></a></h4>
     </footer>
 </template>
 
@@ -74,7 +80,14 @@ footer .social img{
 }
 footer .social{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+.social a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
 }
 .direitos{
   border-top: solid 3px lightgray;
@@ -91,6 +104,28 @@ footer .social{
   border-left: lightgray solid 3px;
   margin-top: 30px;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
-
+@media(max-width: 750px)
+{
+  .organizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .teste{
+    border-left: none;
+  border-top: lightgray solid 3px;
+  margin-top: 30px;
+  color: white;
+}
+footer p{
+   border-left: none;
+    border-top: lightgray solid 3px;
+  color: white;
+  padding-left:10px;
+  margin-top: 30px;
+}
+}
 </style>
