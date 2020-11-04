@@ -43,7 +43,7 @@ export default {
         },
         {
           nome: 'ADIDAS SUPERSTAR',
-          img: '~/assets/img/tenis2.jpg',
+          img: require('~/assets/img/tenis2.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
