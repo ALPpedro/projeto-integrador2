@@ -8,7 +8,7 @@
       </header>
       <div class="card-content">
         <div class="card-content-item" >
-          <img :src="imagem"  height="100px" width="100px">
+          <img :src="imagem"  height="100px" width="250px">
         </div>
 
       </div>

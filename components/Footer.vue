@@ -1,6 +1,5 @@
 <template>
     <footer>
-      <div class="rodape">
       <div class="organizar">
       <div class="texto">
         <p>CEARÁ CALÇADOS <br>
@@ -31,16 +30,11 @@
 
       </div>
       </div>
-<<<<<<< HEAD
           <h4 class="direitos">© 2020 Direitos reservados: <a><nuxt-link 
            to="/"
            exact-active-class="is-active">
               &nbsp; Ceará Calçados
             </nuxt-link></a></h4>
-=======
-      </div>
-          <h4 class="direitos">© 2020 Direitos reservados: <a> &nbsp; Ceará Calçados</a></h4>
->>>>>>> 1040c3e9427dc56655aebe4032069157e0929a06
     </footer>
 </template>
 
@@ -134,100 +128,4 @@ footer p{
   margin-top: 30px;
 }
 }
-<<<<<<< HEAD
 </style>
-=======
-
-@media(min-width:400px){
-  footer.rodape{
-    display: flex;
-    flex-direction: column;
-  }
-footer.teste{
-  border-top: lightgray solid 3px;
-  border-bottom: lightgray solid 3px;
-  margin-top: 30px;
-  color: white;
-  }
-footer.texto{
-  border-top: lightgray solid 3px;
-  border-bottom: lightgray solid 3px;
-  margin-top: 30px;
-  color: white;
-}
-footer.contato{
-  border-top: lightgray solid 3px;
-  border-bottom: lightgray solid 3px;
-  margin-top: 30px;
-  color: white;
-}
-footer.direitos{
-  border-top: lightgray solid 3px;
-  margin-top: 30px;
-  color: white;
-}
-}
-@media(min-width:760px){
-  footer.rodape{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-@media(min-width:1100){
-  .organizar{  display: flex;
-  justify-content: space-around;}
-footer{
-  width:100%;
-  background-color: gray;
-  margin-top: 50px;
-}
-footer .texto{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-}
-footer h1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 20px;
-  align-items:center;
-  color: white;
-}
-footer p{
-    border-left: lightgray solid 3px;
-  color: white;
-  padding-left:10px;
-  margin-top: 30px;
-}
-footer .social img{
-  display: flex;
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-}
-footer .social{
-  display: flex;
-  justify-content: center;
-}
-.direitos{
-  border-top: solid 3px lightgray;
-  color: white;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-}
-.direitos a{
-  text-decoration: none;
-  color: white;
-}
-.teste{
-  border-left: lightgray solid 3px;
-  margin-top: 30px;
-  color: white;
-}
-}
-</style>
->>>>>>> 1040c3e9427dc56655aebe4032069157e0929a06

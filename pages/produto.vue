@@ -28,62 +28,62 @@ export default {
       items:[
          {
           nome: 'Nike',
-          img: '~/assets/img/tenis1.jpg',
+          img: require('~/assets/img/tenis1.jpg'),
           descricao: 'Indicado para: Dia a Dia'
         },
         {
           nome: 'ADIDAS NMD',
-          img: '~/assets/img/tenis2.jpg',
+          img: require('~/assets/img/tenis2.jpg'),
           descricao: 'Indicado para: Dia a Dia  Categoria: Caminhada, Preço: R$:75,99'
         },
         {
           nome: 'NIKE AIR FORCE 1',
-          img: '~/assets/img/tenis2.jpg',
+          img:require('~/assets/img/tenis3.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
           nome: 'ADIDAS SUPERSTAR',
+          img: require('~/assets/img/tenis4.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        },
+        {
+          nome: 'Space',
+          img: require('~/assets/img/tenis5.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        },
+        {
+          nome: 'Space',
+          img: require('~/assets/img/tenis6.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        },
+        {
+          nome: 'Space',
+          img: require('~/assets/img/tenis1.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        },
+        {
+          nome: 'Space',
           img: require('~/assets/img/tenis2.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
           nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
+          img: require('~/assets/img/tenis3.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
           nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
+          img: require('~/assets/img/tenis4.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
           nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
-        },
-        {
-          nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
-        },
-        {
-          nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
-        },
-        {
-          nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
-        },
-        {
-          nome: 'Space',
-          img: '~/assets/img/tenis2.jpg',
+          img: require('~/assets/img/tenis5.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         },
         {
           nome: 'Bot',
-          img: '~/assets/img/tenis2.jpg',
+          img: require('~/assets/img/tenis6.jpg'),
           descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
         }
       ]
