@@ -14,11 +14,11 @@
       
           <div class="social">
             <a href="https://www.facebook.com/cearacalcadosdedobradasp">
-              <img src="~/assets/img/Logo.jpg" alt="facebook" srcset="">
+              <img src="~/assets/img/FPRETO.png" alt="facebook" srcset="">
               Facebook
             </a> 
             <a href="https://www.instagram.com/cearacalcados1/?hl=pt-br">
-              <img src="~/assets/img/Logo.jpg" alt="instagram" srcset="">
+              <img src="~/assets/img/IPRETO.png" alt="instagram" srcset="">
               Instagram
             </a>
         </div>
