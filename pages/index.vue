@@ -1,8 +1,20 @@
 <template>
 <section>
-  <h1 class="titulo">Página Inicial</h1>
-  <div class="filme"><iframe class="video" src="https://www.youtube.com/embed/YE7VzlLtp-4?showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+    <div class="video">
+      <video controls>
+       <source src="~/assets/video/video.mp4" type="video/mp4">
+     </video>
+     </div>
+     <div class="column is-mobile">
+           <card class="teste"
+      v-for="(item, key) of items"
+            :key="key"
+        :title="item.nome"
+        :imagem="item.img"
+        :descricao="item.descricao"
+        >
+      </card>
+     </div>
   </section>
 
 </template>
@@ -17,23 +29,42 @@ export default {
   components: {
     Card,
     Footer
+  },
+  data(){
+    return{
+      items:[
+         {
+          nome: 'Nike',
+          img:require('~/assets/img/tenis1.jpg'),
+          descricao: 'Indicado para: Dia a Dia'
+        },
+        {
+          nome: 'Space',
+          img:require('~/assets/img/tenis1.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        },
+        {
+          nome: 'Space',
+          img: require('~/assets/img/tenis2.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        },
+        {
+          nome: 'Bot',
+          img: require('~/assets/img/tenis6.jpg'),
+          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+        }
+      ]
+    }
   }
 }
 </script>
 <style scoped>
-
-.titulo{
-  display: flex;
-  justify-content: center; 
-  margin-top: 0.5rem;
-  font-size: 50px;
-
-}
 .video{
-  width: 600px;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.filme{
+.teste{
   display: flex;
   justify-content: center;
 }

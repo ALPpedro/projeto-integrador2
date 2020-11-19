@@ -1,6 +1,5 @@
 <template>
 <section>
-  <h1 class="titulo">Página Produto</h1>
     <div class="column is-mobile">
       <card class="teste"
       v-for="(item, key) of items"
@@ -9,7 +8,6 @@
         :imagem="item.img"
         :descricao="item.descricao"
         >
-        <button>Comprar</button>
       </card>
 
     </div>
@@ -94,12 +92,6 @@ export default {
 </script>
 
 <style>
-.titulo{
-  display: flex;
-  justify-content: center; 
-  margin-top: 0.5rem;
-  font-size: 50px;
-}
 .teste{
   display: flex;
   justify-content: center;

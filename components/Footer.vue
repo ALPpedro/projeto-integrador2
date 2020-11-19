@@ -3,9 +3,9 @@
       <div class="organizar">
       <div class="texto">
         <p>CEARÁ CALÇADOS <br>
-        agradecemos por sua<br> preferência,
-        nos siga em <br>nossas redes sociais,<br> para
-        ficar por dentro<br> de nossas novidades.
+        Agradecemos por sua preferência,
+        sigam-nos em nossas redes sociais, para
+        ficarem por dentro de nossas novidades.
         </p>
       </div>
         
@@ -25,7 +25,7 @@
       </div>
       <div class="contato">
            <p>
-            CONTATO <br> Rua 21 de março, Nº542 <br> centro, Santa Ernestina <br> cearacalçados@gmail.com <br> 16 99170-5107 <br> 16 98236-2242 </p>
+            CONTATO <br> Rua 21 de março, Centro Nº542-Santa Ernestina cearacalçados@gmail.com 16 99170-5107 16 98236-2242 </p>
 
 
       </div>
@@ -52,11 +52,12 @@ footer{
   background-color: gray;
   margin-top: 50px;
 }
-footer .texto{
+.texto{
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
+  width: 15%;
 }
 footer h1{
   display: flex;
@@ -107,12 +108,19 @@ footer .social{
   display: flex;
   flex-direction: column;
 }
+.contato{
+  width: 15%;
+}
 @media(max-width: 750px)
 {
   .organizar{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; }
+  .texto{
+    width: 100%;
+  }
+  .contato{
+    width: 100%;
   }
   .teste{
     border-left: none;

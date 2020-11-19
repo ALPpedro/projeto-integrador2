@@ -1,7 +1,6 @@
 <template>
 <section>
   <div class="blog">
-  <h1 class="titulo">Blog da Loja</h1>
   <img src="~/assets/img/tenis1.jpg" alt="">
   <p>
       O que temos que ter sempre em mente é que a consulta aos diversos militantes assume importantes posições no estabelecimento do investimento em reciclagem técnica.
@@ -20,12 +19,7 @@ export default {
 </script>
 
 <style scoped>
-.titulo{
-  display: flex;
-  justify-content: center; 
-    margin-top: 0.5rem;
-  font-size: 50px;
-}
+
 .blog{
   display: flex;
   flex-direction: column;

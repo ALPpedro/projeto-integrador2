@@ -18,6 +18,8 @@
           <p class="descricao">{{ descricao }}</p>
         </div>
       </footer>
+
+      <button class="button">Comprar</button>
     </div>
   </div>
 </template>

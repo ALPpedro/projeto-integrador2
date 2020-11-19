@@ -1,37 +1,36 @@
 <template>
   <div>
-    <nav
-      class="navbar header is-expanded is-black"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-         <img src="~/assets/img/Logo.jpg" alt="" width="50px" height="50px">
-        <a class="centralizar navbar-item">
-           <nuxt-link 
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="">
+      <img src="~/assets/img/Logo.jpg" width="50" height="50">
+       <nuxt-link 
            to="/"
            exact-active-class="is-active">
               Ceará Calçados
             </nuxt-link>
-        </a>
-        <div class="navbar-burguer">
-          <span/>
-          <span/>
-          <span/>
-          <span/>
-          <span/>
-        </div>
-        <a class="navbar-item"   v-for="(item, key) of items"
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item"   v-for="(item, key) of items"
             :key="key">
             <nuxt-link
               :to="item.to"
-              exact-active-class="is-active"
             >
               <b-icon :icon="item.icon" /> {{ item.title }}
             </nuxt-link>
         </a>
       </div>
-    </nav>
+    </div>
+</nav>
      <div>
           <nuxt/>
        <Footer/>
