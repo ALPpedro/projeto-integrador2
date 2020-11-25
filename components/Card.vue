@@ -16,10 +16,13 @@
       <footer class="card-footer">
         <div class="card-footer-item">
           <p class="descricao">{{ descricao }}</p>
+          <button class="button">Comprar</button>
         </div>
+      
+
       </footer>
 
-      <button class="button">Comprar</button>
+      
     </div>
   </div>
 </template>
@@ -38,7 +41,7 @@ export default {
     descricao:{
       type: String,
       required: true
-    }
+    },
   }
 }
 </script>

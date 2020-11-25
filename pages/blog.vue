@@ -1,12 +1,53 @@
 <template>
 <section>
   <div class="blog">
-  <img src="~/assets/img/tenis1.jpg" alt="">
-  <p>
-      O que temos que ter sempre em mente é que a consulta aos diversos militantes assume importantes posições no estabelecimento do investimento em reciclagem técnica.
-      Por outro lado, o início da atividade geral de formação de atitudes ainda não demonstrou convincentemente que vai participar na mudança do retorno esperado a longo prazo.
-      Todavia, o julgamento imparcial das eventualidades garante a contribuição de um grupo importante na determinação do fluxo de informações.
-  </p>
+    <div class="column">
+       <n-link to="/blog-primeiro">
+        <div class="card">
+      <header class="card-header">
+        <p class="card-header-title has-text-grey">
+         Coleção CA.
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="card-content-item" >
+          Não é novidade nenhuma o quão conturbado foi este ano de 2020, que a demanda de vários produtos foi alta...
+        </div>
+
+      </div>
+      <footer class="card-footer">
+        <div class="card-footer-item">
+          <p class="descricao">Autor: Gutavo Telles</p>
+        </div>
+      </footer>
+    </div>
+  </n-link>
+   <n-link to="/blog-segundo">
+     <div class="card">
+      <header class="card-header">
+        <p class="card-header-title has-text-grey">
+          A nova coleção feminina da marca Jordan.
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="card-content-item" >
+         A coleção Court to Runway Holiday 2020 da Jordan Brand reinterpreta esportes autênticos com tecidos luxuosos...
+        </div>
+
+      </div>
+
+      <footer class="card-footer">
+        <div class="card-footer-item">
+          <p class="descricao">Autor: Site da Nike</p>
+        </div>
+      
+
+      </footer>
+
+      
+    </div>
+    </n-link>
+    </div>
   </div>
   </section>
 </template>
@@ -20,25 +61,10 @@ export default {
 
 <style scoped>
 
-.blog{
+.column{
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
-  box-shadow: black 2px;
-}
-.blog p{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  padding-left: 10px;
-  width: 70%;
-}
-.blog img{
-  width: 800px;
-  height: 500px;
-  padding: 10px;
+  justify-content: space-around;
 
 }
 </style>

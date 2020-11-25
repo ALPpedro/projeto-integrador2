@@ -1,15 +1,7 @@
 <template>
   <div>
-    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-tomato" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="">
-      <img src="~/assets/img/Logo.jpg" width="50" height="50">
-       <nuxt-link 
-           to="/"
-           exact-active-class="is-active">
-              Ceará Calçados
-            </nuxt-link>
-    </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -18,11 +10,12 @@
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div class="navbar-menu">
     <div class="navbar-start">
+       <img src="~/assets/img/Logo.jpg" width="100px" height="200px">
       <a class="navbar-item"   v-for="(item, key) of items"
             :key="key">
-            <nuxt-link
+            <nuxt-link class="nuxt"
               :to="item.to"
             >
               <b-icon :icon="item.icon" /> {{ item.title }}
@@ -45,6 +38,11 @@ export default {
   data () {
     return {
       items: [
+            {
+          title: 'Ceará Calçados',
+          icon: 'home',
+          to: { name: 'index' }
+        },
          {
           title: 'Produtos',
           icon: 'cart',
@@ -74,6 +72,14 @@ export default {
 .navbar{
   width: 100%;
   height: 70px;
+  background-color: black;
+}
+#paginas{
+  text-decoration-color: white;
+  color: white;
+}
+.nuxt{
+  color: rgb(247, 49, 0);
 }
 </style>
 

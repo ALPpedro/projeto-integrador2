@@ -25,7 +25,7 @@
       </div>
       <div class="contato">
            <p>
-            CONTATO <br> Rua 21 de março, Centro Nº542-Santa Ernestina cearacalçados@gmail.com 16 99170-5107 16 98236-2242 </p>
+            CONTATO <br> Rua 21 de março, Centro Nº542-Santa Ernestina cearacalçados@gmail.com <br> 16 99170-5107 <br> 16 98236-2242 </p>
 
 
       </div>

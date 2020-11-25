@@ -27,62 +27,62 @@ export default {
          {
           nome: 'Nike',
           img: require('~/assets/img/tenis1.jpg'),
-          descricao: 'Indicado para: Dia a Dia'
+          descricao: 'Indicado para: Dia a Dia  Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'ADIDAS NMD',
           img: require('~/assets/img/tenis2.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Categoria: Caminhada, Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'NIKE AIR FORCE 1',
           img:require('~/assets/img/tenis3.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'ADIDAS SUPERSTAR',
           img: require('~/assets/img/tenis4.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis5.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis6.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis1.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis2.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis3.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis4.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis5.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         },
         {
           nome: 'Bot',
           img: require('~/assets/img/tenis6.jpg'),
-          descricao: 'Indicado para: Dia a Dia  Material: Sintético Categoria: Caminhada Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
         }
       ]
     }
