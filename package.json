@@ -13,5 +13,7 @@
     "nuxt": "^2.14.6",
     "nuxt-buefy": "^0.4.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0"
+  }
 }
