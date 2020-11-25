@@ -66,4 +66,11 @@ Apesar das dificuldades, a CA se saiu bem e ofereceu a máxima qualidade como se
     margin-top: 50px;
     justify-content: space-around;
 }
+@media(max-width: 750px){
+    .grupo img{
+        display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+}
 </style>

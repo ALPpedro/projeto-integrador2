@@ -26,7 +26,7 @@ export default {
   height: 40%;
 }
 .texto{
-  width: 30%;
+  width: 50%;
   height: 40%;
   border: solid rgb(168, 168, 168);
   text-align: center;
@@ -41,5 +41,22 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+@media(max-width: 750px)
+{
+  .sobre{
+      display: flex;
+      justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+  .sobre img{
+  width: 80%;
+}
+.texto{
+  width: 80%;
+  border: solid rgb(168, 168, 168);
+  text-align: center;
+}
 }
 </style>

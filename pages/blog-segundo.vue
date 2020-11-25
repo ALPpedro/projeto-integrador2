@@ -45,4 +45,12 @@
     margin-top: 50px;
     justify-content: space-around;
 }
+
+@media(max-width: 750px){
+    .grupo img{
+        display: flex;
+    width: 90%;
+    justify-content: center;
+}
+}
 </style>

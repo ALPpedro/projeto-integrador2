@@ -16,11 +16,12 @@
       <footer class="card-footer">
         <div class="card-footer-item">
           <p class="descricao">{{ descricao }}</p>
-          <button class="button">Comprar</button>
         </div>
-      
 
       </footer>
+      <div class="button">
+      Comprar
+      </div>
 
       
     </div>
@@ -51,6 +52,13 @@ export default {
   flex-wrap: wrap;
   width: 400;
 
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    background: rgb(2, 226, 2);
+    color: black;
+    font-size: 18px;
   }
 .card{
   width: 250px;

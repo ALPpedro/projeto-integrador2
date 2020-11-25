@@ -67,4 +67,5 @@ export default {
   justify-content: space-around;
 
 }
+
 </style>
