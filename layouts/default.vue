@@ -1,29 +1,26 @@
 <template>
   <div>
-    <nav class="navbar is-tomato" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div class="navbar-menu">
-    <div class="navbar-start">
-       <img src="~/assets/img/Logo.jpg" width="100px" height="200px">
-      <a class="navbar-item"   v-for="(item, key) of items"
+    <template>
+    <b-navbar>
+        <template slot="brand">
+                <img
+                    src="~/assets/img/Logo.jpg"
+                    width="70px" height="70px"
+                >
+        </template>
+        <template slot="start">
+            <b-navbar-item v-for="(item, key) of items"
             :key="key">
             <nuxt-link class="nuxt"
               :to="item.to"
             >
               <b-icon :icon="item.icon" /> {{ item.title }}
             </nuxt-link>
-        </a>
-      </div>
-    </div>
-</nav>
+            </b-navbar-item>
+        </template>
+
+    </b-navbar>
+    </template>
      <div>
           <nuxt/>
        <Footer/>
