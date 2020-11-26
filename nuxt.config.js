@@ -12,10 +12,6 @@ export default {
     ]
   },
 
-  googleAnalytics: {
-    id: 'G-KML2VWT04L'
-  },
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
@@ -37,6 +33,10 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
   ],
+
+  googleAnalytics: {
+    id: 'G-KML2VWT04L'
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
