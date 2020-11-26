@@ -35,7 +35,7 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'G-KML2VWT04L'
+    id: 'G-T1E0Z9VJ6R'
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
