@@ -36,22 +36,22 @@ export default {
          {
           nome: 'Nike',
           img: require('~/assets/img/tenis1.jpg'),
-          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$ 75,99'
         },
         {
           nome: 'Space',
           img:require('~/assets/img/tenis1.jpg'),
-          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$ 75,99'
         },
         {
           nome: 'Space',
           img: require('~/assets/img/tenis2.jpg'),
-          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$ 75,99'
         },
         {
           nome: 'Bot',
           img: require('~/assets/img/tenis6.jpg'),
-          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$:75,99'
+          descricao: 'Indicado para: Dia a Dia    Categoria: Caminhada, Trilha Preço: R$ 75,99'
         }
       ]
     }

@@ -2,9 +2,7 @@
     <section class="container">
         <h1>Coleção CA</h1>
         <div class="teste">
-        <p>Não é novidade nenhuma o quão conturbado foi este ano de 2020, que a demanda de vários produtos foi alta, inclusive os sapatos, tênis etc.
-Apesar das dificuldades, a CA se saiu bem e ofereceu a máxima qualidade como sempre. Veja alguns exemplos da nossa coleção e maiores vendas:
-</p>
+        <p>Não é novidade o imprevisto que ocorreu esse ano, pela situação covid 2020, em que a demanda de diversos produtos, foram significativas,  inclusive calçados. Apesar das dificuldades que o mundo se encontra, o Ceará Calçados ofereceu a seus clientes, a melhor qualidade dos produtos e melhores atendimentos. Veja alguns exemplos da nossa coleção e as produções mais vendidas.</p>
 </div>
 
       <h1>Nike 12 Molas</h1>
@@ -25,7 +23,7 @@ Apesar das dificuldades, a CA se saiu bem e ofereceu a máxima qualidade como se
       <img src="~/assets/img/jordan2.jpg" alt="">
       </div>
       <div class="teste">
-      <p>Ambas linhas e modelos fizeram muito sucesso por causa da sua qualidade, inegável, e sua estética, considerados um dos mais bonitos produzidos pela Nike. Vale ressaltar também seu uso, que podem ser usados para caminhar, sair e até mesmo correr, claro, que com cuidado do mesmo. Venham aproveitar as promoções das nossas lojas de calçados, inclusive essas duas belezinhas acima.</p>
+      <p>Texturas e modelos dos produtos Nike, fazem da loja um verdadeiro sucesso, pois, a qualidade é excelente  e sua estética, considerada moderna, chama atenção de muitas pessoas. Vale ressaltar, também, seu uso, que é indicado em caminhadas, corridas e trilhas. Venham aproveitar as promoções que Ceará calçados oferece.</p>
       </div>
       <div class="botoes">
           <n-link to="/blog">

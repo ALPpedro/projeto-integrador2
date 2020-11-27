@@ -3,8 +3,8 @@
       <div class="organizar">
       <div class="texto">
         <p>CEARÁ CALÇADOS <br>
-        Agradecemos por sua preferência,
-        sigam-nos em nossas redes sociais, para
+        Agradecemos pela sua preferência.
+        Nos sigam nas redes sociais, para
         ficarem por dentro de nossas novidades.
         </p>
       </div>
@@ -25,7 +25,7 @@
       </div>
       <div class="contato">
            <p>
-            CONTATO <br> Rua 21 de março, Centro Nº542-Santa Ernestina cearacalçados@gmail.com <br> 16 99170-5107 <br> 16 98236-2242 </p>
+            CONTATO <br> Rua 21 de março, Centro-Nº542-Santa Ernestina cearacalçados@gmail.com <br> (16) 99170-5107 <br> (16) 98236-2242 </p>
 
 
       </div>
