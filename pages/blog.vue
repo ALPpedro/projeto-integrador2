@@ -11,7 +11,7 @@
       </header>
       <div class="card-content">
         <div class="card-content-item" >
-          Não é novidade nenhuma o quão conturbado foi este ano de 2020, que a demanda de vários produtos foi alta...
+          Não é novidade o imprevisto que ocorreu esse ano, pela situação covid 2020...
         </div>
 
       </div>
